@@ -10,11 +10,10 @@
 $ yarn add --dev nerds-and-company-stylelint-config
 ```
 
-**Edit `package.json`**:
+**Create `stylelint.config.js` with**:
 
-```jsonc
-{
-  // ...
-  "stylelint": "nerds-and-company-stylelint-config"
-}
+```js
+module.exports = {
+  extends: ["nerds-and-company-stylelint-config"]
+};
 ```
