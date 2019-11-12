@@ -1,0 +1,26 @@
+{
+  "name": "nerds-and-company-stylelint-config",
+  "version": "0.0.1",
+  "description": "Nerds & Company Stylelint Config",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nerds-and-company/stylelint-config.git"
+  },
+  "author": "Nerds & Company",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nerds-and-company/stylelint-config/issues"
+  },
+  "homepage": "https://github.com/nerds-and-company/stylelint-config#readme",
+  "dependencies": {
+    "stylelint-config-prettier": "^6.0.0",
+    "stylelint-config-standard": "^19.0.0",
+    "stylelint-declaration-block-no-ignored-properties": "^2.1.0",
+    "stylelint-no-unsupported-browser-features": "^4.0.0",
+    "stylelint-order": "^3.1.1",
+    "stylelint-prettier": "^1.1.1",
+    "stylelint-scss": "^3.12.1"
+  },
+  "devDependencies": {}
+}
