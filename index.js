@@ -75,6 +75,12 @@ module.exports = {
     "scss/at-rule-conditional-no-parentheses": true,
     "scss/at-rule-no-unknown": true,
     "scss/comment-no-loud": true,
+    "scss/declaration-nested-properties": [
+      "always",
+      {
+        except: ["only-of-namespace"]
+      }
+    ],
     "scss/function-color-relative": true,
     "scss/no-duplicate-mixins": true,
     "scss/selector-nest-combinators": "always",
