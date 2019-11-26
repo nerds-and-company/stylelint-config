@@ -30,8 +30,7 @@ module.exports = {
 
     // Specificity
     "max-nesting-depth": 4,
-    "selector-max-compound-selectors": 3,
-    "selector-max-specificity": "0,2,2",
+    "selector-max-specificity": "0,3,2",
 
     // Selector types, units, properties, functions and words in comments
     "color-named": [
@@ -51,12 +50,13 @@ module.exports = {
       "/^border/": ["none"],
       "/.+/": ["initial"]
     },
-    "selector-max-class": 1,
     "selector-max-attribute": 1,
+    "selector-max-class": 3,
+    "selector-max-compound-selectors": 3,
     "selector-max-combinators": 2,
     "selector-max-id": 0,
-    "selector-max-pseudo-class": 1,
-    "selector-max-type": 1,
+    "selector-max-pseudo-class": 2,
+    "selector-max-type": 2,
     "selector-max-universal": 1,
 
     // Plugins
