@@ -50,7 +50,7 @@ module.exports = {
       "/^border/": ["none"],
       "/.+/": ["initial"]
     },
-    "function-calc-no-invalid": false,
+    "function-calc-no-invalid": null,
     "selector-max-attribute": 1,
     "selector-max-class": 3,
     "selector-max-compound-selectors": 3,
