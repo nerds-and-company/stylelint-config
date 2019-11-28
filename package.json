@@ -1,6 +1,6 @@
 {
   "name": "nerds-and-company-stylelint-config",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Nerds & Company Stylelint Config",
   "main": "index.js",
   "repository": {
