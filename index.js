@@ -30,7 +30,7 @@ module.exports = {
 
     // Specificity
     "max-nesting-depth": 4,
-    "selector-max-specificity": "0,3,2",
+    "selector-max-specificity": "0,4,2",
 
     // Selector types, units, properties, functions and words in comments
     "color-named": [
